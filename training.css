@@ -42,6 +42,13 @@ body{margin:0px;font-family:sans-serif}
     font-weight: bold
 }
 
+<<<<<<< HEAD
+=======
+.section1{
+    /* padding-top: 120px; */
+}
+
+>>>>>>> 07f4c863c426b637c03d5edab0cb0524b13f7e09
 .contactLink{
     margin-left: 70px;
     margin-top: 25px;
@@ -175,9 +182,17 @@ clear: both;
 
 .section2 ul li {
     color: #3c3c3c; 
+<<<<<<< HEAD
     display: inline-block;
     list-style: none; 
     margin: 0 0 16px 1.1225em;
+=======
+    /* set color of list item text */
+    display: inline-block;
+    list-style: none; 
+    margin: 0 0 16px 1.1225em;
+    /* Give the bullet room on the left hand side */
+>>>>>>> 07f4c863c426b637c03d5edab0cb0524b13f7e09
     padding: 0;
     position: relative;
   }
@@ -388,5 +403,9 @@ margin-left: -40px;
 }
 
 .subFooterLeft{
+<<<<<<< HEAD
     display:inline-block;
 }
+=======
+    display:inline-block;}
+>>>>>>> 07f4c863c426b637c03d5edab0cb0524b13f7e09
