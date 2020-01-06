@@ -1,0 +1,392 @@
+body{margin:0px;font-family:sans-serif}
+
+.header{background-color: #208CCD;height:450px;position:relative }
+
+.nav{padding:55px;}
+
+.nav-logo{margin-left: 50px;}
+
+.logo{width: 200px;margin-left: 10px;margin-top: 5px;}
+
+.nav-link {
+    color: white;
+    margin-right: 20px;
+    top: 25px;
+    font-size: 18px;
+    font-family: sans-serif;
+    position: relative;
+    font-weight: bold;
+}
+
+.nav-link a { 
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+
+.left{float:left}
+
+.right{float:right}
+
+.contactText{
+    position: absolute;
+    top: 80%;
+    font-size: 60px;
+    color: white;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: sans-serif;
+}
+
+.bold{
+    font-weight: bold
+}
+
+.contactLink{
+    margin-left: 70px;
+    margin-top: 25px;
+    font-size: 20px;
+}
+.contactLink .contact{
+    color: #00b8ff;
+}
+
+.contactLink .arrow{
+    font-size: 22px;
+}
+
+.contactWithText{
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 50px;
+    padding: 20px;
+}
+
+.sectionSubText{
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    text-align: center;
+    width: 38%;
+    opacity: 0.5;
+}
+.greyTextColor{
+    color:grey;
+}
+
+.secondCard{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+
+.card{
+    
+    width: 31%;
+    margin-top: 2rem;
+    float:left;
+    border: 1px solid;
+    height: 350px;
+
+}
+.card .container{
+
+text-align: left;
+padding: 10px;
+font-size: 13px;
+}
+
+
+.card button{
+
+    background-color: #298BC6;
+    border: none;
+    width: 50%;
+    height: 60px;
+    border-radius: 4px;
+    color: white;
+    font-size: 14px;
+    font-weight: BOLD;
+}
+
+.imgContainer{
+    background-color: #00b8ff;
+    height: 10rem;
+}
+
+.parentCardContainer{
+    text-align: center;
+    margin: 0px auto 50px auto;
+    max-width: 1140px;}
+
+.parentCardContainer::after{
+content: "";
+display: table;
+clear: both;
+}
+.container{max-width: 1140px;margin: auto;}
+
+.section2{background-color:#F6F6F6;padding-top: 3em;    padding-bottom: 3em;}
+
+.section3{background-color:#222B35;padding-top: 3em;}
+
+
+.section3 .heading{
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+
+  }
+
+
+.row p{
+    color: #9ca4ab;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+.row h4{margin-bottom: -10px;}
+
+.container h3{color:#4BA0D4;}
+
+.image1{ width:450px;text-align:center;}
+
+.leftColumn,.rightColumn{
+    max-width: 50%;
+    width:50%
+}
+.leftColumn{
+    display: inline-block
+}
+.rightColumn{
+    float:right;
+}
+
+.section2 ul{padding: 0px;}
+
+.text-container span{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.section2 ul li {
+    color: #3c3c3c; 
+    display: inline-block;
+    list-style: none; 
+    margin: 0 0 16px 1.1225em;
+    padding: 0;
+    position: relative;
+  }
+  
+.section2 ul li::before {
+    color: #4BA0D4;
+    content: "\2022";
+    display: inline-block;
+    font-size: 2em;
+    left: -20px;
+    position: absolute;
+    top: -7px;
+
+  }
+  
+
+.section2 h1{
+    font-size: 50px;
+    margin-top: 0px;
+}
+
+hr{
+    border: none;
+    width: 100%;
+    height: 30px;
+    border-radius: 3px;
+    margin-top: 0;
+    border-bottom: 5px solid #E2E2E2;
+    box-shadow: 0 20px 20px -20px #333;
+    margin: -30px auto 10px;
+}
+
+
+.form{
+text-align:center
+}
+
+input{
+    background-color: transparent;
+    border: solid 2px #464646;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-left: 10px;
+    width: 50%;
+    font-size: 14px;
+    height: 70px;
+    color: white;
+}
+
+#fname,#lname{
+    width:25%;
+}
+
+
+textarea{
+    width: 50%;
+    background: transparent;
+    border: solid 2px #464646;
+    margin-bottom: 10px;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-top: 20px;
+    margin-top: 10px;
+    color: white;
+}
+
+.section3 button{
+    background-color: #298BC6;
+    border: none;
+    width: 50%;
+    margin-bottom: 50px;
+    height: 70px;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: BOLD;
+
+}
+
+
+.section4 .container{
+    margin-top: 6rem;
+    margin-bottom: 8rem;
+}
+
+.section4 .leftColumn{
+max-width:60%;
+display: inline-block;
+}
+.section4 .rightColumn{
+    display: inline;
+}
+.section4 .leftColumn .heading{
+font-size: 40px;
+width: 65%;
+font-weight: bold;
+}
+
+.section4 .content{
+    margin-top: 2.5rem;
+    color: grey;
+}
+.section4 button{
+    background-color: #298BC6;
+    border: none;
+    width: 22%;
+    margin-top: 3rem;
+    height: 60px;
+    border-radius: 4px;
+    color: white;
+    font-size: 14px;
+    font-weight: BOLD;
+}
+
+footer{background-color: #208CCD }
+
+.list{
+    width:20%;
+    text-align: left;
+}
+.list ul{
+    margin-top: 8px;
+    
+}
+
+
+.footerList{
+
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 6rem;
+    margin-top:30px;
+}
+
+.innerList{
+    list-style: none;
+    line-height: 27px;
+    font-size: 14px;
+    padding-left: 0px;
+}
+
+
+.social-icon{
+    list-style:none;
+    display:inline-block;
+    margin-bottom: 5px;
+}
+
+.signUpText{
+    margin-top: 10px;
+    margin-bottom: 0px;
+
+}
+
+.footerLine{
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 20px;
+    padding-bottom: 60px;
+    color:white;
+}
+
+.footerLogo{
+    display:inline-block;
+}
+
+.footerImgLogo{
+    width: 50px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.subBtn{
+    padding: 13px;
+    background-color: #00000C;
+    border: none;
+    margin-left: -6px;
+    font-weight: bolder;
+    color: white;
+    font-size: 14px;
+}
+
+.inputBox{
+    padding: 15px 0 15px 15px;
+    background: white;
+    width: 200px;
+    border: none;
+    height: 42px;
+    margin-right: 1px;
+}
+
+
+.socialSubList{
+margin-left: -40px;
+}
+
+.footerUpperSec{
+    color:white;
+    border-bottom:1px white solid;
+    padding-left: 0px;
+    padding-bottom: 30px;
+}
+
+.footerSubRight{
+ float:right;
+ padding-top: 25px;
+ color:white;
+}
+
+.subFooterLeft{
+    display:inline-block;
+}
