@@ -3,41 +3,63 @@
 <html>
   <link rel="stylesheet" href="index.css" />
   <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <title>Datavine</title>
   </head>
+
   <body>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <header class="header">
-      <div class="container">
-        <nav class="nav">
-          <div class="nav-logo left">
-            <img src="datavine-logo.png" class="logo" alt="logo" />
+        <nav class="navbar">
+          <div class="container px-0 mt-4">
+
+            <div class="nav-logo">
+              <img src="datavine-logo.png" class="logo" alt="logo" />
+            </div>
+            <div class="nav-link">
+              <a href="#">HOME</a>
+              <a href="#">SERVICES</a>
+              <a href="#">ABOUT</a>
+              <a href="#">CONTACT</a>
+              <a href="#">FAQ</a>
+            </div>
           </div>
-          <div class="nav-link right">
-            <a href="#">HOME</a>
-            <a href="#">SERVICES</a>
-            <a href="#">ABOUT</a>
-            <a href="#">CONTACT</a>
-            <a href="#">FAQ</a>
-          </div>
+
         </nav>
-      </div>
-      <div class="contactText">CONTACT <span class="bold">DETAILS</span></div>
+        <div class="contactText text-center">CONTACT <span class="font-weight-bold">DETAILS</span></div>
     </header>
     <section class="section1">
-      <div class="parentCardContainer">
-        <div class="contactLink">
-          <span class="bold">HOME</span><span class="arrow"> &#8594;</span
-          ><span class="contact bold"> CONTACT</span>
+      <div class="container">
+
+        <div class='row'>
+          <div class='col-sm-3 mt-4 mb-5 contactLink'>
+            <span class="font-weight-bold">HOME</span>
+            <span class="arrow"> &#8594;</span>
+            <span class="contact font-weight-bold"> CONTACT</span>
+          </div>
         </div>
-        <div class="contactWithText">Contact with me</div>
-        <div class="sectionSubText">
-          Whether you're looking for a demo, have a support question or a
-          commercial query to get in touch.
+        <div class='row'>
+          <div class='col-sm-3'></div>
+          <div class="col-sm-6 contactWithText">Contact with me</div>
+        </div>
+        <div class='row'>
+          <div class='col-sm-3'></div>
+          <div class=" col-sm-6  sectionSubText">
+            Whether you're looking for a demo, have a support question or a
+            commercial query to get in touch.
+          </div>
         </div>
 
-        <ul class="boxListings">
-          <li>
-            <div class="card">
+        <div class="row mr-0 ml-0 text-center mb-3">
+          <div class='col-sm-12'>
+            <div class="col-sm-3 cardBox mr-3 px-0 mt-4 mb-5">
+              <div class='card'>
               <div class="shadowBox">
                 <div class="imgContainer">
                   <img
@@ -45,21 +67,22 @@
                     style="width:50%"
                     alt="cardImg1"
                   />
+                
                 </div>
-                <div class="container">
-                  <h4 class="bold">TALK TO SALES</h4>
-                  <p class="greyTextColor">
+                <div class="boxContainer">
+                  <h4 class="font-weight-bold mb-0">TALK TO SALES</h4>
+                  <p>
                     If you'd prefer to talk about Workable with a real
                     human,just call us.We're friendly and available on the
                     phone:
                   </p>
                   <p>
-                    <span class="bold">Phone: </span
-                    ><span class="greyTextColor">(+44)07511-391-736</span>
+                    <span class="font-weight-bold">Phone: </span
+                    ><span>(+44)07511-391-736</span>
                   </p>
                   <p>
-                    <span class="bold">Address: </span
-                    ><span class="greyTextColor">
+                    <span class="font-weight-bold">Address: </span
+                    ><span>
                       Devonshire House, 582 Honeypot Lane, Stanmore,London HA7
                       1JS,United Kingdom</span
                     >
@@ -68,64 +91,71 @@
               </div>
               <div class="stacks"></div>
             </div>
-          </li>
-          <li>
-            <div class="card secondCard">
-              <div class="shadowBox">
-                <div class="imgContainer">
-                  <img
-                    src="mirage-message-sent.png"
-                    style="width:50%"
-                    alt="cardImg2"
-                  />
-                </div>
-                <div class="container">
-                  <h4 class="bold">GET A DEMO</h4>
-                  <p class="greyTextColor">
-                    Demos can be tailored to tackle the specific needs of your
-                    organization.Get in touch to let us know the best time to
-                    talk:
-                  </p>
-                  <button>GET DEMO</button>
-                </div>
-              </div>
-              <div class="stacks"></div>
             </div>
-          </li>
-          <li>
-            <div class="card">
-              <div class="shadowBox">
-                <div class="imgContainer">
-                  <img
-                    src="mirage-message-sent.png"
-                    style="width:50%"
-                    alt="cardImg3"
-                  />
+            <div class='col-sm-3 cardBox mr-3 px-0 mt-4 mb-5'>
+              <div class="card secondCard ">
+                <div class="shadowBox">
+                  <div class="imgContainer">
+                    <img
+                      src="mirage-message-sent.png"
+                      style="width:50%"
+                      alt="cardImg2"
+                    />
+                  </div>
+                  <div class="boxContainer">
+                    <h4 class="font-weight-bold mb-0">GET A DEMO</h4>
+                    <p>
+                      Demos can be tailored to tackle the specific needs of your
+                      organization.Get in touch to let us know the best time to
+                      talk:
+                    </p>
+                    <button>GET DEMO</button>
+                  </div>
                 </div>
-                <div class="container">
-                  <h4 class="bold">
-                    CONTACT<br />
-                    CUSTOMER SUPPORT
-                  </h4>
-                  <p class="greyTextColor mb26">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry
-                  </p>
-                  <button>SUPPORT</button>
-                </div>
+                <div class="stacks"></div>
               </div>
-              <div class="stacks"></div>
             </div>
-          </li>
-        </ul>
+            <div class='col-sm-3 cardBox px-0 mt-4 mb-5'>
+              <div class="card ">
+                <div class="shadowBox">
+                  <div class="imgContainer">
+                    <img
+                      src="mirage-message-sent.png"
+                      style="width:50%"
+                      alt="cardImg3"
+                    />
+                  </div>
+                  <div class="boxContainer">
+                    <h4 class="font-weight-bold mb-0">
+                      CONTACT<br />
+                      CUSTOMER SUPPORT
+                    </h4>
+                    <p class="mb26">
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry
+                    </p>
+                    <button>SUPPORT</button>
+                  </div>
+                </div>
+                <div class="stacks"></div>
+              </div>
+            </div>
+        </div>
+        </div>
       </div>
     </section>
+
+
+
+
+
+
     <section class="section2">
       <div class="container">
         <h3>MEET THE</h3>
         <h1 class="what-Text">What we do.</h1>
         <div class="row">
-          <div class="leftColumn">
+          <div class="col-sm-6">
             <div class="text-container">
               <h3>I. MANAGE YOUR REVENUE BETTER</h3>
               <ul>
@@ -147,18 +177,18 @@
               </ul>
             </div>
           </div>
-          <div class="rightColumn">
+          <div class="col-sm-6">
             <img src="img1.png" class="image1" alt="section2Img" />
           </div>
         </div>
         <hr />
         <div class="row">
-          <div class="leftColumn">
+          <div class="col-sm-6">
             <div class="image-container">
               <img src="img2.png" class="image1" alt="section2Img" />
             </div>
           </div>
-          <div class="rightColumn">
+          <div class="col-sm-6">
             <div class="text-container">
               <h3>II. IMPROVE YOUR CUSTOMER SATISFACTION</h3>
               <ul>
@@ -185,7 +215,7 @@
         </div>
         <hr />
         <div class="row">
-          <div class="leftColumn">
+          <div class="col-sm-6">
             <div class="text-container">
               <h3>III. UNDERSTAND YOUR COMPETITORS BETTER</h3>
               <ul>
@@ -210,7 +240,7 @@
               </ul>
             </div>
           </div>
-          <div class="rightColumn">
+          <div class="col-sm-6">
             <div class="image-container">
               <img src="img1.png" class="image1" alt="section2Img" />
             </div>
@@ -218,12 +248,12 @@
         </div>
         <hr />
         <div class="row">
-          <div class="leftColumn">
+          <div class="col-sm-6">
             <div class="image-container">
               <img src="img2.png" class="image1" alt="section2Img" />
             </div>
           </div>
-          <div class="rightColumn">
+          <div class="col-sm-6">
             <div class="text-container">
               <h3>IV. MANAGE YOUR TIME AND RESOURCES EFFICIENTLY</h3>
               <ul>
@@ -271,7 +301,8 @@
 
     <section class="section4">
       <div class="container">
-        <div class="leftColumn">
+        <div class='row'>
+        <div class="col-sm-6">
           <div class="heading">
             Get tips & tricks on how to skyrocket your sales.
           </div>
@@ -282,10 +313,11 @@
           </div>
           <button type="submit">GET STARTED</button>
         </div>
-        <div class="rightColumn">
+        <div class="col-sm-6">
           <img src="img2.png" class="image1" alt="img2" />
         </div>
       </div>
+    </div>
     </section>
 
     <footer>
