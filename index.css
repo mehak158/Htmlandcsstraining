@@ -80,11 +80,6 @@ body {
   color: grey;
 }
 
-.boxListings {
-  /* list-style-type: none;
-  margin: 30px auto 110px;
-  width: 1000px; */
-}
 
 .cardBox {
   display: inline-block;
@@ -204,10 +199,7 @@ body {
 
 .section3 .heading {
   color: white;
-  text-align: center;
   font-size: 4rem;
-  font-weight: bold;
-  margin-bottom: 3rem;
 }
 
 .row p {
@@ -220,7 +212,7 @@ body {
   margin-bottom: -10px;
 }
 
-.container h3 {
+.container h5 {
   color: #4ba0d4;
 }
 
@@ -228,25 +220,13 @@ body {
   width: 100%;
 }
 
-.leftColumn,
-.rightColumn {
-  max-width: 50%;
-  width: 50%;
-}
-.leftColumn {
-  display: inline-block;
-}
-.rightColumn {
-  float: right;
-}
 
 .section2 ul {
   padding: 0;
 }
 
-.text-container span {
+.section2 span {
   font-size: 20px;
-  font-weight: bold;
 }
 
 .section2 ul li {
@@ -283,28 +263,19 @@ hr {
   margin: -30px auto 10px;
 }
 
-.form {
-  text-align: center;
-}
 
-input {
+.form-control {
   background-color: transparent;
   border: solid 2px #464646;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  padding-left: 10px;
-  width: 50%;
   font-size: 14px;
-  height: 70px;
+  height:calc(2.5em + 1.25rem + 2px);
+}
+.form-control::-webkit-input-placeholder {
   color: white;
 }
 
-#fname,
-#lname {
-  width: 24%;
-}
 
-textarea {
+/* textarea {
   width: 50%;
   background: transparent;
   border: solid 2px #464646;
@@ -314,14 +285,11 @@ textarea {
   padding-top: 20px;
   margin-top: 10px;
   color: white;
-}
+} */
 
 .section3 button {
   background-color: #298bc6;
   border: none;
-  width: 52%;
-  margin-bottom: 50px;
-  height: 70px;
   color: white;
   font-size: 16px;
   letter-spacing: 1px;
@@ -329,16 +297,8 @@ textarea {
   font-weight: bold;
 }
 
-.section4 .container {
-  margin-top: 6rem;
-  margin-bottom: 8rem;
-}
-
-
 .section4 .heading {
   font-size: 40px;
-  width: 65%;
-  font-weight: bold;
 }
 
 .section4 .content {
@@ -361,6 +321,7 @@ textarea {
 
 footer {
   background-color: #208ccd;
+  color: white;
 }
 
 .list {
@@ -421,22 +382,16 @@ footer {
 }
 
 .subBtn {
-  padding: 13px;
   background-color: #00000c;
   border: none;
-  margin-left: -6px;
   font-weight: bolder;
   color: white;
   font-size: 14px;
 }
 
 .inputBox {
-  padding: 15px 0 15px 15px;
   background: white;
-  width: 200px;
   border: none;
-  height: 12px;
-  margin-right: 1px;
 }
 
 .socialSubList {
