@@ -332,18 +332,6 @@ footer {
   margin-top: 8px;
 }
 
-.footerList {
-  display: inline-block;
-  vertical-align: top;
-  margin-right: 6rem;
-  margin-top: 30px;
-}
-
-.footerList h5 {
-  font-size: 16px;
-  margin-bottom: 10px;
-}
-
 .innerList {
   list-style: none;
   line-height: 1.6;
@@ -358,27 +346,9 @@ footer {
   margin-right: 5px;
 }
 
-.signUpText {
-  margin-top: 10px;
-  margin-bottom: 0;
-}
-
-.footerLine {
-  display: inline-block;
-  vertical-align: middle;
-  margin-top: 20px;
-  padding-bottom: 60px;
-  color: white;
-}
-
-.footerLogo {
-  display: inline-block;
-}
 
 .footerImgLogo {
-  width: 50px;
-  margin-left: 10px;
-  margin-top: 5px;
+  width: 100%;
 }
 
 .subBtn {
@@ -398,19 +368,6 @@ footer {
   margin-left: -40px;
 }
 
-.footerUpperSec {
-  color: white;
+.divider {
   border-bottom: 1px #ffffff47 solid;
-  padding-left: 0;
-  padding-bottom: 30px;
-}
-
-.footerSubRight {
-  float: right;
-  padding-top: 25px;
-  color: white;
-}
-
-.subFooterLeft {
-  display: inline-block;
 }
