@@ -405,4 +405,8 @@ footer {
   .section3 .heading {
     font-size: 3rem;
   }
+  
+  .contactWithText {
+    font-size: 40px;
+  }
 }
