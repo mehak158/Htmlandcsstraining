@@ -290,8 +290,9 @@ hr {
 
 .form-control:focus {
   background-color: transparent;
-  border: none;
+  border: solid 2px #464646;
   color: white;
+  box-shadow: none;
 }
 
 .form-control::-webkit-input-placeholder {
@@ -369,6 +370,10 @@ footer {
   font-size: 14px;
 }
 
+.subBtn:hover {
+  color: white;
+}
+
 .inputBox {
   background: white;
   border: none;
@@ -382,14 +387,27 @@ footer {
   /* For mobile phones: */
   .header {
     height: unset;
+    padding-bottom: 2rem;
   }
+
+  .form-row>[class*=col-] {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .container {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
   .contactText {
     font-size: 30px;
     margin-top: 5rem;
   }
+
   .footerImgLogo {
     width: 10%;
   }
+
   .cardHeight {
     height: unset;
   }
@@ -405,7 +423,7 @@ footer {
   .section3 .heading {
     font-size: 3rem;
   }
-  
+
   .contactWithText {
     font-size: 40px;
   }
